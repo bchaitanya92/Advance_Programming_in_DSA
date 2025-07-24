@@ -1,14 +1,14 @@
 # 🚀 Advanced Programs in Data Structures and Algorithms (DSA) — C Language
 
 <p align="center">
-  <img src="https://img.shields.io/badge/C-Programming-blue?logo=c" alt="C">
-  <img src="https://img.shields.io/badge/Data%20Structures-Algorithms-green" alt="DSA">
-  <img src="https://img.shields.io/badge/Advanced-Programming-red" alt="Advanced">
+  <img src="https://img.shields.io/badge/C-Programming-blue?logo=c" alt="C">
+  <img src="https://img.shields.io/badge/Data%20Structures-Algorithms-green" alt="DSA">
+  <img src="https://img.shields.io/badge/Advanced-Programming-red" alt="Advanced">
 </p>
 
 <p align="center">
-  <b>Comprehensive C programs for mastering Advanced Data Structures & Algorithms</b><br>
-  <i>Deepen your DSA knowledge with challenging and real-world programs!</i>
+  <b>Comprehensive C programs for mastering Advanced Data Structures & Algorithms</b><br>
+  <i>Deepen your DSA knowledge with challenging and real-world programs!</i>
 </p>
 
 ---
@@ -23,71 +23,26 @@ This repository contains a curated set of C programs covering advanced data stru
 
 ```
 Advance_Programming_in_DSA/
-│
-├── *.c         # C source files (Advanced DSA programs)
-├── README.md   # This file
+├── Level_1_Basic_Sorting_and_Simple_Problems/
+│   └── *.c
+├── Level_2_Backtracking_and_Recursion/
+│   └── *.c
+├── Level_3_Graph_Algorithms_and_Dynamic_Programming/
+│   └── *.c
+└── README.md
 ```
 
 ---
 
-## 📝 Program List
+## 🗂️ Algorithms & Data Structures Covered
 
-| File Name                                   | Description                                         |
-|----------------------------------------------|-----------------------------------------------------|
-| Program_1_avl_tree.c                        | AVL Tree implementation (self-balancing BST)        |
-| Program_2_red_black_tree.c                  | Red-Black Tree implementation                       |
-| Program_3_b_tree.c                          | B-Tree implementation                               |
-| Program_4_trie_implementation.c             | Trie (Prefix Tree) implementation                   |
-| Program_5_graph_dijkstra.c                  | Dijkstra's shortest path algorithm                  |
-| Program_6_graph_kruskal.c                   | Kruskal's Minimum Spanning Tree algorithm           |
-| Program_7_graph_prim.c                      | Prim's Minimum Spanning Tree algorithm              |
-| Program_8_graph_topological_sort.c          | Topological sorting of a directed graph             |
-| Program_9_segment_tree.c                    | Segment Tree implementation                         |
-| Program_10_fenwick_tree.c                   | Fenwick Tree (Binary Indexed Tree) implementation   |
-| Program_11_disjoint_set_union.c             | Disjoint Set Union (Union-Find) with path compression|
-| Program_12_lru_cache.c                      | LRU Cache implementation using linked list & hash   |
-| Program_13_suffix_array.c                   | Suffix Array construction                           |
-| Program_14_kmp_string_matching.c            | KMP (Knuth-Morris-Pratt) string matching algorithm  |
-| Program_15_rabin_karp_string_matching.c     | Rabin-Karp string matching algorithm                |
-| Program_16_floyd_warshall.c                 | Floyd-Warshall all-pairs shortest path algorithm    |
-| Program_17_bellman_ford.c                   | Bellman-Ford shortest path algorithm                |
-| Program_18_heap_sort.c                      | Heap Sort algorithm                                 |
-| Program_19_priority_queue_heap.c            | Priority Queue using Heap                           |
-| Program_20_sparse_matrix.c                  | Sparse Matrix representation and operations         |
+This repository organizes C programs across three levels of complexity. Below is a summary of the topics covered in each level, based on the provided source files.
 
----
-
-## 🏆 Program Order by Complexity
-
-<details>
-<summary><b>Intermediate Level</b></summary>
-
-- Program_1_avl_tree.c
-- Program_4_trie_implementation.c
-- Program_9_segment_tree.c
-- Program_10_fenwick_tree.c
-- Program_11_disjoint_set_union.c
-- Program_18_heap_sort.c
-- Program_19_priority_queue_heap.c
-- Program_20_sparse_matrix.c
-</details>
-
-<details>
-<summary><b>Advanced Level</b></summary>
-
-- Program_2_red_black_tree.c
-- Program_3_b_tree.c
-- Program_5_graph_dijkstra.c
-- Program_6_graph_kruskal.c
-- Program_7_graph_prim.c
-- Program_8_graph_topological_sort.c
-- Program_12_lru_cache.c
-- Program_13_suffix_array.c
-- Program_14_kmp_string_matching.c
-- Program_15_rabin_karp_string_matching.c
-- Program_16_floyd_warshall.c
-- Program_17_bellman_ford.c
-</details>
+| Level | Folder Name & Category | Algorithms & Problems Implemented |
+| :---: | :--- | :--- |
+| **1** | `Level_1_Basic_Sorting_and_Simple_Problems` | <ul><li>**Sorting Algorithms:** Merge Sort, Quick Sort, Selection Sort</li><li>**Backtracking:** Subset Sum Problem</li></ul> |
+| **2** | `Level_2_Backtracking_and_Recursion` | <ul><li>**Backtracking:** N-Queens Problem</li></ul> |
+| **3** | `Level_3_Graph_Algorithms_and_Dynamic_Programming` | <ul><li>**Shortest Path:** Dijkstra's Algorithm, Floyd-Warshall Algorithm</li><li>**Minimum Spanning Tree (MST):** Kruskal's Algorithm, Prim's Algorithm</li><li>**Graph Traversal:** Topological Sort, Warshall's Transitive Closure</li><li>**Dynamic Programming:** 0/1 Knapsack Problem</li><li>**Greedy Algorithms:** Fractional Knapsack Problem</li></ul> |
 
 ---
 
@@ -97,13 +52,18 @@ Advance_Programming_in_DSA/
 - C compiler (e.g., GCC, MinGW, or any standard C compiler)
 
 ### 2. Compile & Run
-Open PowerShell or your terminal and run:
-```powershell
-gcc Program_1_avl_tree.c -o avl_tree.exe
-./avl_tree.exe
-```
-Replace `Program_1_avl_tree.c` with any file you want to run.
+Open your terminal, navigate into the desired folder, and run the compilation command.
 
+**Example for a file in Level 1:**
+```powershell
+# Navigate into the correct directory
+cd Level_1_Basic_Sorting_and_Simple_Problems
+
+# Compile and run the C file
+gcc Quick_Sort_Time_Complexity.c -o quick_sort.exe
+./quick_sort.exe
+```
+Replace Quick_Sort_Time_Complexity.c with any file you want to run from that directory.
 ---
 
 ## 💡 Usage
